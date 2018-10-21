@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+:root {
+    font-size: 20px;
+    font-family: 'Mali', cursive;
+}
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+#brown {
+    color: brown;
+}
+
+.yellow {
+    color: yellow;
+}
+
+* {
+    border: 1px solid black;
+}
+
+div > p {
+    background-color: grey;
+}
+
+div ~ p {
+    font-family: monospace;
+}
+
+p:hover {
+    background-color: red;
+}
+
+p::first-letter {
+    font-size: 3rem;
+}
+p::after {
+    content:"!";
+}
